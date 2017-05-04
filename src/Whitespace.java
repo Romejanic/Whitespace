@@ -25,7 +25,7 @@ public class Whitespace {
 	public static void main(String[] args) {
 		try {
 			if(args.length <= 0) {
-				exitErr("USAGE: java Whitespace <file>.ws");
+				exitErr("USAGE: java -jar Whitespace.jar <file>.ws");
 			} else {
 				StringBuilder sb = new StringBuilder();
 				for(int i = 0; i < args.length; i++) {
@@ -205,10 +205,10 @@ public class Whitespace {
  				actionWriter.println("SUBTRACTED " + value + " FROM " + address + " (" + addressVal + ")");
  				break;
  			case MUL:
- 				actionWriter.println("MULTIPLIED ADDRESS " + address + " BY " + address + " (" + addressVal + ")");
+ 				actionWriter.println("MULTIPLIED ADDRESS " + address + " BY " + value + " (" + addressVal + ")");
  				break;
  			case DIV:
- 				actionWriter.println("DIVIDED ADDRESS " + address + " BY " + address + " (" + addressVal + ")");
+ 				actionWriter.println("DIVIDED ADDRESS " + address + " BY " + value + " (" + addressVal + ")");
  				break;
  			case COPY:
  				actionWriter.println("COPIED ADDRESS " + address + " TO ADDRESS " + value);
