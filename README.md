@@ -3,7 +3,7 @@ A programming language composed entirely of whitespace.
 
 Nope, I'm not kidding...
 
-**NOTE:** I am aware that a language called Whitespace (created by [Edwin Brady](https://en.wikipedia.org/wiki/Whitespace_(programming_language)) with a similar concept exists already. I created this as a personal experiment and for fun, I'm not trying to copy the existing Whitespace language, and there are significant differences in syntax and how programs are actually written.
+**NOTE:** I am aware that a language called Whitespace (created by [Edwin Brady](https://en.wikipedia.org/wiki/Whitespace_(programming_language))) with a similar concept exists already. I created this as a personal experiment and for fun, I'm not trying to copy the existing Whitespace language, and there are significant differences in syntax and how programs are actually written.
 
 Whitespace is a programming language composed entirely of two characters; space and tab.
 
