@@ -20,4 +20,4 @@ $ java -jar Whitespace.jar helloworld.ws
 ```
 
 You can optionally run Whitespace in a debug mode which will print each step of the program and the value of the current address in memory.
-To access this debug, run the program with the `--log-actions` flag before the file name. This will create a new file called `PROGRAMNAME.actions.log` (e.g. `helloworld.actions.log`), with a list of completed actions during execution.
+To access this debug, run the program with the `--log-actions` flag before the file name. This will create a new file called `PROGRAMFILE.actions.log` (e.g. `helloworld.ws.actions.log`), with a list of completed actions during execution.
