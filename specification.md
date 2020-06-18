@@ -2,7 +2,7 @@
 
 ## Overview
 The interpreter stores an array of 4096 signed integers. This acts as the program's 'memory'.
-The index of the array is stored in an integer. This index can be changed (see Syntax).
+The index of the array is stored in an integer. This index can be changed (see [Syntax](#Syntax)).
 When performing most actions (such as addition, subtraction, division, etc.), they will 
 be performed on the currently selected address in memory.
 
@@ -18,8 +18,8 @@ Only two valid characters are permitted, single spaces ( ) and TABs (	).
 
 Number of spaces correspond to a numerical value, for example:
 ```
-    (three spaces) corresponds to the number 3.
-      (five spaces) corresponds to the number 5.
+   (three spaces) corresponds to the number 3.
+     (five spaces) corresponds to the number 5.
 ```
 A blank line corresponds to the number 0.
     
@@ -44,10 +44,10 @@ The parameter of the action is defined on the following line.
  	 
 For example, to change the value of memory address 5 from 0 to 20, you would type:
 ```
-		 (2 tabs set the selected memory address to the following)
-      (5 spaces sets the memory address to 5)
-	 (1 tab sets the value of the address to the following)
-                     (20 spaces sets the value of memory address 5 to 20)
+		(2 tabs set the selected memory address to the following)
+     (5 spaces sets the memory address to 5)
+	(1 tab sets the value of the address to the following)
+                    (20 spaces sets the value of memory address 5 to 20)
 ```
 *Note: brackets are used to document the example, comments are 
 not possible in Whitespace.*
