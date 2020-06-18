@@ -1,4 +1,4 @@
 #/bin/sh
-mkdir bin
+mkdir -p bin
 javac -d bin/ src/Whitespace.java
 jar cfe Whitespace.jar Whitespace -C bin/ .
