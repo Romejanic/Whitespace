@@ -12,7 +12,7 @@ The number of spaces you type consecutively correspond to a value. The amount of
 For a full guide of how to write a program in Whitespace, please view the [specification.md](specification.md) file.
 An example "Hello world!" program is provided under [helloworld.ws](helloworld.ws).
 
-# To download Whitespace
+## Getting Started
 ```sh
 $ git clone https://github.com/Romejanic/Whitespace.git
 $ cd Whitespace
@@ -21,3 +21,10 @@ $ java -jar Whitespace.jar helloworld.ws
 
 You can optionally run Whitespace in a debug mode which will print each step of the program and the value of the current address in memory.
 To access this debug, run the program with the `--log-actions` flag before the file name. This will create a new file called `PROGRAMFILE.actions.log` (e.g. `helloworld.ws.actions.log`), with a list of completed actions during execution.
+
+## Build from source
+**On Windows:** Run `build.bat`
+
+**On Mac/Linux:** Run `build.sh`
+
+This will compile the source, place the resulting class files into `bin/`, and then create a runnable `Whitespace.jar`.
