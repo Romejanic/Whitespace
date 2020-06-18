@@ -112,7 +112,7 @@ public class Whitespace {
 								exitErr("RUNTIME", i+1, 0, "Invalid memory address: " + spaceCount);
 								return;
 							}
-							memory[spaceCount] = address;
+							memory[spaceCount] = memory[address];
 							logAction(i+1, lastAction, address, memory[address], spaceCount);
 							break;
 						case MOVE:
@@ -120,7 +120,7 @@ public class Whitespace {
 								exitErr("RUNTIME", i+1, 0, "Invalid memory address: " + spaceCount);
 								return;
 							}
-							memory[spaceCount] = address;
+							memory[spaceCount] = memory[address];
 							memory[address] = 0;
 							logAction(i+1, lastAction, address, memory[address], spaceCount);
 							break;

@@ -34,8 +34,8 @@ selected memory address):
 |4|1|Subtract value from address.|
 |5|1|Multiply value by address.|
 |6|1|Divide address by value.|
-|7|1|Copy address to specified address.|
-|8|1|Move address to specified address, set current address to 0.|
+|7|1|Copy value at address to specified address.|
+|8|1|Move value at address to specified address, set current address to 0.|
 |9|0|Print the value of the current address to the console.|
 |10|0|Prints a line break into the console, moving all text to the next line.|
 |11|1|Change print mode of console (0 for decimal/raw, 1 for ASCII).|
