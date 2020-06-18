@@ -7,11 +7,11 @@ When performing most actions (such as addition, subtraction, division, etc.), th
 be performed on the currently selected address in memory.
 
 The language is composed of simple instructions defined by tabs. The number of tabs
-corresponds to the action used (see table in Syntax section). An action is entered on a line,
+corresponds to the action used (see table in [Syntax](#Syntax) section). An action is entered on a line,
 followed by a new line (pressing enter). From here, the data associated with that action is
 passed by pressing space to correspond with a numerical value.
 
-For an example of a program written in Whitesoace, see [helloworld.ws](helloworld.ws).
+For an example of a program written in Whitespace, see [helloworld.ws](helloworld.ws).
 
 ## Syntax
 Only two valid characters are permitted, single spaces ( ) and TABs (	).
